@@ -1,0 +1,24 @@
+[project]
+name = "cielago-cad"
+version = "0.1.0"
+description = "A Tiny Whoop drone, and an attempt to modernize open CAD project workflows"
+authors = [
+    {name = "Shahar Evron", email = "shahar.evron@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+
+[project.urls]
+repository = "https://github.com/shevron/cielago-cad"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
